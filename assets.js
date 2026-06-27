@@ -4,8 +4,17 @@
   const EB = window.EB = window.EB || {};
 
   EB.ASSET_PATHS = Object.freeze({
-    titleBackground: 'assets/title_background.png',
+    titleBackground: 'assets/title_background_v3.png',
     villageCinematic: 'assets/village_cinematic.png',
+    introForest: 'assets/intro_forest.png',
+    foregroundCanopy: 'assets/foreground_canopy.png',
+    macawAtlas: 'assets/macaw_atlas.png',
+    bgVillage: 'assets/bg_village.png',
+    bgFire: 'assets/bg_fire.png',
+    bgWater: 'assets/bg_water.png',
+    bgStorm: 'assets/bg_storm.png',
+    bgFortress: 'assets/bg_fortress.png',
+    bgShip: 'assets/bg_ship.png',
     aimbereAtlas: 'assets/aimbere_atlas.png',
     portraitAimbere: 'assets/portrait_aimbere.jpg',
     portraitPotira: 'assets/portrait_potira.jpg',
