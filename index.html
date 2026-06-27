@@ -1,1 +1,34 @@
-
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#07130f" />
+  <meta name="description" content="Ecos do Brasil: Terra Invadida — jogo de ação em pixel art inspirado na resistência de Aimberê e na Confederação dos Tamoios." />
+  <title>Ecos do Brasil: Terra Invadida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="game-shell" aria-label="Ecos do Brasil: Terra Invadida">
+    <canvas id="game" width="480" height="270" tabindex="0" aria-label="Área do jogo"></canvas>
+    <div id="touch-controls" aria-hidden="true">
+      <div class="touch-left">
+        <button data-key="ArrowLeft">◀</button>
+        <button data-key="ArrowRight">▶</button>
+        <button data-key="ArrowUp">▲</button>
+        <button data-key="ArrowDown">▼</button>
+      </div>
+      <div class="touch-right">
+        <button class="attack" data-key="KeyJ">ATAQUE</button>
+        <button class="bow" data-key="KeyK">ARCO</button>
+        <button class="dash" data-key="KeyL">ESQUIVA</button>
+        <button class="interact" data-key="KeyE">AÇÃO</button>
+      </div>
+    </div>
+    <noscript>Ative o JavaScript para jogar.</noscript>
+  </main>
+  <script src="audio.js"></script>
+  <script src="content.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
