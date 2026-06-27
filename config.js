@@ -3,7 +3,7 @@
 
   const EB = window.EB = window.EB || {};
 
-  EB.VERSION = '2.0.0';
+  EB.VERSION = '3.0.0';
   EB.TITLE = 'Ecos do Brasil: Terra Invadida';
   EB.CANVAS_WIDTH = 1600;
   EB.CANVAS_HEIGHT = 900;
